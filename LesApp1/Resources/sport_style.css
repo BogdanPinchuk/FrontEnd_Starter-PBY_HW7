@@ -78,7 +78,7 @@ main>aside>figure {
     color: white;
     padding: 0;
     margin: 0;
-    margin-right: 15px;
+    margin-right: 25px;
 }
 
 main>aside>figure>img {
@@ -111,7 +111,8 @@ main>aside>figure>figcaption:hover {
 main>aside>div {
     width: 350px;
     height: 100%;
-    padding: 10px 0px 10px 25px;
+    padding: 10px 0px 10px 0px;
+    margin-left: 25px;
     font-family: "Lucida Grande", Lucida, Verdana, sans-serif;
     display: flex;
     flex-direction: column;
@@ -140,14 +141,7 @@ main figure a, main figure a:hover {
     text-decoration: none;
 }
 
-section{
-    font-family: "Lucida Grande", Lucida, Verdana, sans-serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-h2{
+h2 {
     color: #727272;
     margin: 25px 0px 25px 0px;
     padding: 0;
@@ -157,5 +151,61 @@ h2{
     left: -350px;
 }
 
+section {
+    width: 800px;
+    margin: 0;
+    padding: 0;
+    font-family: "Lucida Grande", Lucida, Verdana, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
+section div {
+    width: 180px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
 
+section figure {
+    margin: 0;
+    padding: 0;
+}
+
+section figure img {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-radius: 5px;
+}
+
+section div p, section div time {
+    margin: 7.5px 0px 0px;
+    text-align: left;
+    padding: 0;
+    color: #727272;
+}
+
+section a {
+    margin: 10px 0 20px;
+    padding: 0;
+    color: black;
+    text-decoration: none;
+    font-size: 0.8em;
+}
+
+section a:hover {
+    text-decoration: underline;
+}
+
+.class_title {
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+.class_info, section div time {
+    font-size: 0.8em;
+}
