@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5F5;
+}
+
+header {
+    padding-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+header>figure {
+    margin-right: 25px;
+    padding: 0;
+    width: 125px;
+    align-self: flex-start;
+}
+
+header>figure>img {
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+nav {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav p{
+    color: white;
+    background-color: #FF6F28;
+    box-shadow: 1px 1px 5px #2F2E2A;
+    height: auto;
+    width: auto;
+    text-align: center;
+    margin-left: 1px;
+    margin-right: 1px;
+    padding: 3px 10px 3px;
+}
+
+nav p:hover{
+    color: #2F2E2A;
+    cursor: pointer;
+    box-shadow: 1px 1px 10px #008BDE;
+    margin-left: 10px;
+    margin-right: 5px;
+    position: relative;
+    top: 5px;
+    left: -5px;
+}
+
+main{
+    padding: 0;
+    margin: 0;
+    /* width: auto;
+    height: auto; */
+}
+
+aside{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+main>aside>figure{
+    width: 400px;
+    color: white;
+    padding: 0;
+    margin: 0;
+    margin-left: 50px;
+}
+
+main>aside>figure>img{
+    width: 100%;
+    border-radius: 10px 25px;
+}
+
+main>aside>figure>figcaption{
+    text-align: center;
+    position: relative;
+    top: -50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+main>aside>figure>figcaption:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+main>aside>div{
+    width: 350px;
+    height: 100%;
+    padding: 10px 0px 10px 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+main>aside>div #id_p1{
+    color: #2F2E2A;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+main>aside>div #id_p2{
+    color: #727272;
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+    margin-top: 5px;
+}
+
+main figure a, main figure a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
