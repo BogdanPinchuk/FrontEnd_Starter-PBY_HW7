@@ -1,6 +1,135 @@
-body{
+body {
+    margin: 0 auto;
+    padding: 0;
+    width: 779px;
+}
+
+header {
+    margin: 8px 11px;
+    padding: 0;
+    font-family: Calibri;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+header p {
     margin: 0;
     padding: 0;
 }
 
+header #id_p1 {
+    font-size: 2.2em;
+    color: #619E5E;
+}
 
+header #id_p2 {
+    font-size: 0.7em;
+    color: #919591;
+}
+
+nav {
+    margin: 26px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+nav p {
+    height: 47px;
+    width: 110px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    background-color: #3CB04B;
+    color: white;
+    margin: 1px 10px;
+}
+
+main {
+    padding: 0;
+    margin: 36px 0px 33px;
+}
+
+aside {
+    margin: 0px 11px 27px;
+    padding: 0;
+}
+
+aside p {
+    color: #383838;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin: 0px 0px 9px;
+    padding: 0;
+}
+
+aside hr {
+    border-style: solid;
+    border-color: #3CB04B;
+}
+
+section {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+figure {
+    padding: 0;
+    margin: 10px 10px;
+}
+
+figure img {
+    margin: 0;
+    padding: 0;
+}
+
+#id_d1 img {
+    width: 239px;
+}
+
+#id_d2 img {
+    width: 174px;
+}
+
+#id_d3 img {
+    width: 109px;
+}
+
+#id_d4 img {
+    width: 240px;
+    bottom: 73px;
+    clip-path: polygon(0 0, 100% 0, 100% 73px, 0 73px);
+    margin-bottom: -87px;
+}
+
+figure #id_d4 {
+    height: 73px;
+    width: 500px;
+}
+
+footer {
+    margin: 0;
+    padding: 0;
+}
+
+footer p {
+    padding: 0;
+    margin: 0;
+    height: 30px;
+    background-color: #3CB04B;
+    color: white;
+    font-size: 0.7em;
+    /* font-family: 'Droid Sans', sans-serif; */
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
